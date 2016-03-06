@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-columns2owl",
+  "description": "Bootstrap plugin to turn a row columns to a Owl carousel on mobile from Valentino Tombesi <http://www.codesurgeon.net>",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "keywords": [
+    "owl",
+    "carousel",
+    "bootstrap"
+  ],
+  "main": "./dist/bootstrap-columns2owl.js",
+  "homepage": "https://github.com/vtombesi/bootstrap-columns2owl",
+  "author": "Valentino Tombesi <valentino.tombesi@gmail.com>",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vtombesi/bootstrap-columns2owl"
+  },
+  "dependencies": {
+    "jquery": ">=1.7.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "~1.0.0"
+  }
+}
